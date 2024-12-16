@@ -1,0 +1,10 @@
+.hero {
+  padding: var(--space4x) var(--space3x) var(--space1x);
+}
+
+.hero--home {
+  background-color:var(--herder);
+}
+.hero__title--home{
+  text-align: center;
+}
