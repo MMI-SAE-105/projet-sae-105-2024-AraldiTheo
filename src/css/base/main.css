@@ -180,3 +180,31 @@ text-align: center;
 font-family: var(--font-body);
 font-size: var(--font-size-s);
  }
+ .intro__article{
+  text-align: center;
+  font-family: var(--font-soustitre);
+  font-size: var(--font-size-xl);
+  font-weight: bold;
+  color: white;
+  margin-bottom: 45px;
+ }
+ .article_texte{
+  font-family: var(--font-body);
+  font-size: var(--font-size-s);
+  padding-left: 10px;
+  color: white;
+  margin-top: 38px;
+  margin-bottom: 25px;
+ }
+.article_legende{
+  font-family: var(--font-body);
+  font-size: var(--font-size-xs);
+  font-weight: lighter;
+  color: white;
+  padding-left: 5px;
+}
+.mot_glossaire{
+  color: var(--texte);
+  text-decoration: none;
+ 
+}
