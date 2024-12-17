@@ -5,9 +5,14 @@
   padding: var(--space2x) var(--space3x);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content :end;
 }
 
 .header__logo {
   display: block;
+  padding-right: 200px;
+}
+.header__langue{
+  position: relative;
+  
 }
