@@ -7,4 +7,6 @@
 }
 .hero__title--home{
   text-align: center;
+font-family: var(--font-titre);
 }
+

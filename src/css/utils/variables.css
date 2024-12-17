@@ -16,6 +16,16 @@
       --background: #50626d;
     
 
+/* string */
+--font-titre: "Space mono" , serif;
+--font-soustitre :"K2D", sans-serif;
+--font-body :  "Mulish", sans-serif;
+--font-size-xs: 10px;
+--font-size-s: 14px;
+--font-size-x: 24px;
+--font-size-xl: 30px;
+--font-size-xxl: 36px;
+      
   /* Text-size styles */
   --fs-xs: 0.75rem;
   --fs-s: 0.875rem;
@@ -38,3 +48,4 @@
   --space4x: 80px;
   --space5x: 120px;
 }
+

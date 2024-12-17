@@ -74,52 +74,24 @@ textarea {
 }
 .intro__title{
   text-align: center;
-  font-size: var(--fs-lg);
+  font-size: var(--font-size-xl);
   padding: 30px;
+  color: white;
+  font-family: var(--font-titre);
 }
 .intro__partenaires{
   text-align: center;
   font-size: var(--fs-lg);
 }
-.main__logo--1{
-  position: relative;
-  right: -20px;
+.intro__texte{
+  color: white;
+  width: 350px;
+  padding-left: 25px;
+  margin-bottom: 83px;
+  font-family: var(--font-body);
+  font-size: var(--font-size-s);
 }
-.main__logo--2{
-  position: relative;
-  right: -30px;
-}
-.main__logo--3{
-  position: relative;
-  right: -40px;
-}
-.main__logo--4{
-  position: relative;
-  right: -50px;
-}
-.main__logo--5{
-  position: relative;
-  right: -150px;
-}
-.main__logo--11{
-  position: relative;
-  right: -20px;
-}
-.main__logo--21{
-  position: relative;
-  right: -30px;
-}
-.main__logo--31{
-  position: relative;
-  right: -40px;
-}
-.main__logo--41{
-  position: relative;
-  right: -50px;
-}
-.Sponsors{
-  text-align: center;
-}
+
 .title__sous{
   width: 150px;
 }
@@ -195,3 +167,16 @@ margin-left: 70px;
     border-radius: 5px;
     margin-top: 20px;
   }
+ .card__article{
+padding-left: 70px;
+margin-bottom: 48px;
+ }
+ .card__titre{
+margin-bottom: 125px;
+color: white;
+padding-left: 20px;
+padding-right: 10px;
+text-align: center;
+font-family: var(--font-body);
+font-size: var(--font-size-s);
+ }
