@@ -153,7 +153,14 @@ margin-left: 70px;
   }
   .contact__info{
     position: relative;
-    left: 35px;
+    left: 37px;
+    font-family: var(--font-body);
+    font-size: var(--font-size-s);
+  }
+  .Buton__text{
+    font-family: var(--font-body);
+    font-size: var(--font-size-s);
+    font-weight: bolder;
   }
   .rectanglee__envoi{
     position: relative;
@@ -241,4 +248,7 @@ font-size: var(--font-size-s);
 .acrticle_image{
 width: 100%;
 }
-
+.flecheFrise{
+  position: relative;
+  align-items: center;
+}
