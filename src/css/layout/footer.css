@@ -7,7 +7,7 @@
 }
 
 .footer__copyright {
-  color: var(--gray-600);
+  color: gray;
 }
 .footer__logo {
 
@@ -16,10 +16,8 @@
 
 .footer_titre {
 color: black;
-font-style: 2rem;
-margin-bottom: 50px;
-list-style: none;
-width: 100px;
+font-family: var(--font-soustitre);
+  font-size: var(--font-size-x);
 }
 .footer__reseaux {
   display: flex;

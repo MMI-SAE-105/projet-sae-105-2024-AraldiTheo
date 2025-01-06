@@ -33,8 +33,11 @@
   margin-bottom: var(--space25x);
   text-align: center;
   padding-bottom: var(--space1x);
-  border-bottom: 1px solid var(--black);
+  border-bottom: 1px solid black;
   width: 300px;
+  font-family: var(--font-soustitre);
+  font-size: var(--font-size-ss);
+  font-weight: bold;
 }
 
 .menu__social-network,
@@ -58,7 +61,7 @@
 .menu-btn__bar::before,
 .menu-btn__bar::after {
   content: "";
-  background: var(--black);
+  background: black;
   height: 2px;
   width: 100%;
   position: absolute;
@@ -82,7 +85,7 @@ Ne pas oublier d'ajouter une transition plus haut pour l'animation */
 .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
 .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
   transform: rotate(135deg);
-  background: var(--black);
+  background: black;
 }
 
 .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
