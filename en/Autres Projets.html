@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta/>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Money timeline</title>
+    <link rel="stylesheet" href="/src/css/components/carousel.css">
+    <title>Film</title>
     <link rel="stylesheet" href="/src/css/style.css" />
     <script type="module" src="/src/js/script.js"></script>
   </head>
@@ -19,22 +18,22 @@
           src="/assets/img/logo.svg"
           alt="Logo Money timeline"
         />
-       
-
       </a>
       <div class="header_item">
-      <a href="/en/index.html"><img
-        class="header__langue"
-        src="/assets/img/eng.webp"/></a>
-      <button
-        class="header__menu-btn menu-btn"
-        aria-label="menu"
-        aria-expanded="false"
-        aria-controls="mainNav"
-      >
-        <span class="menu-btn__bar" aria-hidden="true"></span>
-      </button>
-    </div>
+        <a href="/en/index.html"><img
+          class="header__langue"
+          src="/assets/img/eng.webp"/></a>
+        <button
+          class="header__menu-btn menu-btn"
+          aria-label="menu"
+          aria-expanded="false"
+          aria-controls="mainNav"
+        >
+          <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+      </div>
+      
+
       <nav class="header__menu menu" id="mainNav" aria-hidden="true">
         <ul class="menu__list list-unstyled">
           <img class="menu__logo"
@@ -74,68 +73,52 @@
       <div class="hero hero--home">
         <h1 class="hero__title hero__title--home">Money timeline</h1>
       </div>
-      <div class="timeline-container">
-
-        <div class="timeline-block timeline-block-left">
-          <div class="marker"></div>
-          <div class="timeline-content">
-            <img src="/assets/img/image troc.webp" alt="">
-            <h1>Troc (vers 9000 av. J.-C.)</h1>
+      <section class="section">
+        <h1 class="intro__article">Autres Projets</h1>
+        <div class="carousel" aria-labelledby="carousel-heading">
+          <div class="carousel__container" role="region" aria-live="polite">
+            <div id="carousel_item-1" class="carousel__item">
+              <img src="/assets/img/cinario.webp" alt="Image musique 1" />
+              <h3 class="card__titre-film">Cinario Ahuir Noëlie</h3>
+            </div>
+            <div id="carousel_item-2" class="carousel__item">
+              <img src="/assets/img/virtual existance.webp" alt="Image musique 2" />
+              <h3 class="card__titre-film">Virtual Existence Aymonier Elias</h3>
+            </div>
+            <div id="carousel_item-3" class="carousel__item">
+              <img src="/assets/img/crypto cloack.webp" alt="Image musique 3" />
+              <h3 class="card__titre-film">Crypto Clock Hugo Beyler</h3>
+            </div>
+            <div id="carousel_item-4" class="carousel__item">
+              <img src="/assets/img/ocularia.webp" alt="Image musique 4" />
+              <h3 class="card__titre-film">Ocularia Coulon Estelle</h3>
+            </div>
+            <div id="carousel_item-5" class="carousel__item">
+              <img src="/assets/img/luminae.webp" alt="Image musique 5" />
+              <h3 class="card__titre-film">Luminae Becquelin Jules</h3>
+            </div>
+            <div id="carousel_item-5" class="carousel__item">
+                <img src="/assets/img/board xvolution.webp" alt="Image musique 6" />
+                <h3 class="card__titre-film">Board xvolution Batista Balanche Nathan</h3>
+              </div>
+              <div id="carousel_item-5" class="carousel__item">
+                <img src="/assets/img/pen'en go.webp" alt="Image musique 7" />
+                <h3 class="card__titre-film">Pen N'Go Walid Bouderbala</h3>
+              </div>
+              <div id="carousel_item-5" class="carousel__item">
+                <img src="/assets/img/virtual existance.webp" alt="Image musique 8" />
+                <h3 class="card__titre-film">VirtualSpark Adam Juline</h3>
+              </div>
+              <div id="carousel_item-5" class="carousel__item">
+                <img src="/assets/img/bochiball.webp" alt="Image musique 5" />
+                <h3 class="card__titre-film">Noah Barret</h3>
+              </div>
+              <div id="carousel_item-5" class="carousel__item">
+                <img src="/assets/img/aurizon.webp" alt="Image musique 5" />
+                <h3 class="card__titre-film">Aurizon Bacq Issa</h3>
+              </div>
           </div>
-        </div>
-        <div class="timeline-block timeline-block-right">
-          <div class="marker"></div>
-          <div class="timeline-content">
-            <img src="/assets/img/image or.webp" alt="">
-            <h1>Utilisation de biens précieux (vers 3000 av. J.-C.)</h1>
-          </div>
-        </div>
-        <div class="timeline-block timeline-block-left">
-          <div class="marker"></div>
-          <div class="timeline-content">
-            <img src="/assets/img/image ecu.webp" alt="">
-            <h1>Monnaie métallique (vers 600 av. J.-C.)</h1>
-          </div>
-        </div>
-        <div class="timeline-block timeline-block-right">
-          <div class="marker"></div>
-          <div class="timeline-content">
-            <img src="/assets/img/image lettre.webp" alt="">
-            <h1>Banques et lettres de change (Moyen Âge)</h1>
-        </div>
-      </div>
-        <div class="timeline-block timeline-block-left">
-          <div class="marker"></div>
-          <div class="timeline-content">
-            <img src="/assets/img/image cheque .webp" alt="">
-            <h1>Chèques (16ème siècle)</h1>
-          </div>
-        </div>
-        <div class="timeline-block timeline-block-right">
-          <div class="marker"></div>
-          <div class="timeline-content">
-            <img src="/assets/img/image carte.webp" alt="">
-            <h1>Cartes de crédit (20ème siècle)</h1>
-          </div>
-        </div>
-        <div class="timeline-block timeline-block-left">
-          <div class="marker"></div>
-          <div class="timeline-content">
-            <img src="/assets/img/image pay.webp" alt="">
-            <h1>Paiement mobile et sans contact (années 2000-2010)</h1>
-          </div>
-        </div>
-        <div class="timeline-block timeline-block-right">
-          <div class="marker"></div>
-          <div class="timeline-content">
-            <img src="/assets/img/image crypto.webp" alt="">
-            <h1>Cryptomonnaies (2009 - présent)</h1>
-          </div>
-        </div>
-      </div>
-      <h1 class="titre__frise">Le temps (Future )</h1>
-  <img src="/assets/img/image temps.webp" alt="">
-    </main>
+        </main>
 
     <footer class="footer">
         <img
