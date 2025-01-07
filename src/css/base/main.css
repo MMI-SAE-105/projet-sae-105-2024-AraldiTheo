@@ -150,6 +150,27 @@ margin-left: 70px;
     margin-bottom: 20px;
     border-radius: 30px;
     border: 2px solid black;
+    width: 318px;
+    height: 36px;
+    background-color: white;
+  }
+  .rectanglee__contact--2{
+    position: relative;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 2px solid black;
+    width: 318px;
+    height: 183px;
+    background-color: white;
+  }
+  .rectanglee__envoi{
+    position: relative;
+ 
+    border: 2px solid black;
+    width: 118px;
+    height: 48px;
+    background-color: #319ac8;
   }
   .contact__info{
     position: relative;
