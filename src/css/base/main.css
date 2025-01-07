@@ -269,6 +269,9 @@ font-size: var(--font-size-s);
 .acrticle_image{
 width: 100%;
 }
+.image__landing{
+  width: 100%;
+}
 .flecheFrise{
   position: relative;
 }
