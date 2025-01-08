@@ -291,7 +291,7 @@ width: 100%;
   width: 2px;
   height: 100%;
   background: #CCD1D9;
-  z-index: 1
+  z-index: 0;
 }
 .timeline-block {
   width: -webkit-calc(50% + 8px);
@@ -321,7 +321,7 @@ width: 100%;
   border: 2px solid #F5F7FA;
   background: #4DD0E1;
   margin-top: 10px;
-  z-index: 9999
+  z-index: 0;
 }
 .timeline-content {
   width: 95%;
