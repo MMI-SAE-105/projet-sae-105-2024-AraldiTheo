@@ -36,3 +36,6 @@
 .carousel__item img {
  display: block;
 }
+.carousel{
+  width: 100%;
+}
